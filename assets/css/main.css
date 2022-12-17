@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@100;300;500;700;900&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color:white
+}
+
+header .navbar-logo{
+
+    font-size: 32px;
+    font-weight: 400;
+    color:white !important;
+    text-decoration: none;
+
+}
+header .navbar-logo:hover i{
+    color:rgb(7, 151, 7);
+}
+header .navbar-logo i{
+    color: green;
+    transition: 0.3s;
+}
+header nav a{
+    color:#FFFFFF80 !important;
+    font-weight: 400 !important;
+    
+}
+header a{
+    color:#FFFFFF80 !important;
+    transition: 0.3s color;
+}
+header a.active{
+    color:white !important
+}
+header a:hover{
+    color:white !important;
+}
+header .header-contacts{
+    column-gap: 16px;
+}
+header .header-contacts a{    
+    font-size: 18px;
+}
+.header .nav-item{
+    padding: 20px 0px !important;
+}
+header .dr-item{
+    position: relative;
+}
+.dr-item:hover
+ .dr-menu
+{
+    visibility: visible;
+}
+.dr-menu{
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    background: gray;
+    padding: 10px 8px;
+    visibility: hidden;
+}
+#info p{
+    color: #FFFFFF80;
+}
+#info h2 span{
+    position: relative;
+}
+#info h2 span::before{
+    content: "";
+    position: absolute;
+    width: 102%;
+    bottom: 0px;
+    height: 50%;
+    background: #27A776;
+    z-index: -1;
+}
